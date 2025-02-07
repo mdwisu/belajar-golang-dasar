@@ -16,4 +16,6 @@ func main() {
 
 	firstname, lastname := getFullName()
 	println(firstname, lastname)
+	// ignore return value
+	_, _ = getFullName()
 }
